@@ -1,0 +1,48 @@
+main {
+    margin: 56px 0px 0px 0px;
+    min-height: 30vh;
+    flex-grow: 1;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+.jumbotron {
+    margin: 0;
+    background-color: rgb(27, 27, 27);
+    border-radius: 0%;
+}
+footer {
+    /* position: absolute;
+    right: 0;
+    left: 0;
+	bottom: 0; */
+	width: 100%;
+	min-height: 10vh;
+}
+.footer {
+    min-height: 10vh;
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+}
+.footer p {
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.card-users {
+    background-color: rgb(43, 43, 43);
+}
+.navhr {
+    /* background-color: black; */
+    border: 1px solid rgba(116, 116, 116, 0.307);
+    margin: 0;
+}
+.note-editable {
+    color: black;
+    place-content: hello;
+}
